@@ -11,7 +11,7 @@ def obter_entradas():
     num_robos = int(input("Digite o número de robôs: "))
     raio = float(input("Digite o raio: "))
     forma = int(input("Digite a forma geométrica que deseja (Triângulo:3, Quadrado:4, Círculo:10): "))
-    return num_robos, raio, forma
+    return num_robos, raio, forma#fazendo alguns testes
 
 # Função para gerar coordenadas aleatórias para os robôs
 def gerar_coordenadas_aleatorias(num_robos, espaco):

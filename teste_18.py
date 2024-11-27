@@ -294,7 +294,7 @@ if (forma == 3):#triangulo
         resultados_2 = andar (coordenadas_robos, arredo_x, arredo_y, coordenadasx_robos, coordenadasy_robos, i, robo_prox, dist_robo_prox, m)#andar até o ponto desejado
         #Desenpacota os dados
         coordenadas_robos, arredo_x, arredo_y, coordenadasx_robos, coordenadasy_robos, i, robo_prox, dist_robo_prox, m = resultados_2
-
+        printxxsdd
         robo_prox = 0 #Inicializo com 0 mas o primeiro robô irá subistituir o 0
         dist_robo_prox = 10000#Deixo alta pois logo que for comparar com o primeiro robô, ele já será o mais próximo
         #PRECISO TROCAR AS POSIÇÕES
